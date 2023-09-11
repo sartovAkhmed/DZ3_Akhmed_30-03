@@ -1,15 +1,6 @@
 /* ⁃ дан массив [123, 234, 256, 345, 456, 567, 543, 67, 55, 23, 28, 50]. 
 Пройдитесь циклом и выведите только те числа, которые начинаются на 2 и 5. 
 Результат должен вывестись в новом массиве newArray */
-// var originalArray = [123, 234, 256, 345, 456, 567, 543, 67, 55, 23, 28, 50];
-// var newArray = [];
-// for (var i = 0; i < originalArray.length; i++) {
-//     var numStr = originalArray[i].toString();
-//     if (numStr.startsWith('2') || numStr.startsWith('5')) {
-//         newArray.push(originalArray[i]);
-//     }
-// }
-// console.log(newArray);
 var arrayNumber = [123, 234, 256, 345, 456, 567, 543, 67, 55, 23, 28, 50];
 var newArray = [];
 for(var i = 0; i < arrayNumber.length; i++){
@@ -35,13 +26,6 @@ argumentsTypeOf();
 Вам нужно посчитать каких тегов сколько штук.  Обязательные условия:  
 1. Конечный результат должен вывестись как объект {}, где ключ - это сам тег, 
 а значение - это количество сколько раз этот тег встречается в массиве.  */
-// var listTag = ['li', 'div', 'li', 'p', 'h1', 'p', 'h1', 'div', 'div', 'li', 'h1',  'p', 'h1', 'ol', 'br']
-// var objectList = {}
-// for(var i of listTag){
-//     if(listTag[i] === 'li'){
-//         console.log(listTag[i]);
-//     }
-// }
 var tags = ['li', 'div', 'li', 'p', 'h1', 'p', 'h1', 'div', 'div', 'li', 'h1',  'p', 'h1', 'ol', 'br'];
 function listTags(tags) {
     var listTagObject = {};
