@@ -29,7 +29,7 @@ argumentsTypeOf();
 var tags = ['li', 'div', 'li', 'p', 'h1', 'p', 'h1', 'div', 'div', 'li', 'h1',  'p', 'h1', 'ol', 'br'];
 function listTags(tags) {
     var listTagObject = {};
-    for(const tag of tags) {
+    for(var tag of tags) {
         if (listTagObject[tag]) {
             listTagObject[tag]++;
         } else {
